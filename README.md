@@ -14,10 +14,10 @@ A plugin that provides shortcodes and filters for easily displaying post summari
 
 ```sh
 # npm
-npm i eleventy-read-more-plugin
+npm i eleventy-plugin-read-more
 
 # yarn
-yarn add eleventy-read-more-plugin
+yarn add eleventy-plugin-read-more
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ yarn add eleventy-read-more-plugin
 Register the plugin in you `.eleventy.js` file:
 
 ```js
-const eleventyReadMorePlugin = require("eleventy-read-more-plugin");
+const eleventyReadMorePlugin = require("eleventy-plugin-read-more");
 
 module.exports = (eleventyConfig) => {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
