@@ -1,6 +1,6 @@
 {
   "name": "eleventy-plugin-read-more",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A plugin that provides shortcodes and filters for displaying read more links",
   "keywords": [
     "11ty",
