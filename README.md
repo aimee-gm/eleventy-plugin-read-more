@@ -28,7 +28,7 @@ Register the plugin in you `.eleventy.js` file:
 const eleventyReadMorePlugin = require("eleventy-plugin-read-more");
 
 module.exports = (eleventyConfig) => {
-  eleventyConfig.addPlugin(eleventyNavigationPlugin);
+  eleventyConfig.addPlugin(eleventyReadMorePlugin);
 });
 ```
 
